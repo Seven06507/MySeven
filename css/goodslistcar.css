@@ -1,0 +1,191 @@
+body, h1, h2, h3, h4, h5, h6, ul, ol, dl, dd, p, input, textarea, button {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #666; }
+
+input:focus, textarea:focus, button:focus {
+  outline: none; }
+
+ul, ol {
+  list-style: none; }
+
+img {
+  vertical-align: top;
+  border: 0; }
+
+a {
+  color: inherit; }
+
+input, select, textarea {
+  color: inherit;
+  font-size: inherit; }
+
+.header {
+  width: 100%;
+  background-color: #f1f1f1; }
+  .header .w {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 30px; }
+  .header p {
+    display: inline-block; }
+  .header span {
+    margin: 0 5px; }
+  .header .register {
+    color: red; }
+  .header ul {
+    float: right; }
+  .header li {
+    margin: 0 5px;
+    float: left; }
+
+.tittle {
+  width: 100%; }
+  .tittle .w {
+    width: 1200px;
+    margin: 0px auto; }
+    .tittle .w .search {
+      display: inline-block;
+      margin: 10px 120px; }
+      .tittle .w .search input {
+        width: 458px;
+        height: 36px;
+        font-size: 20px;
+        border: 2px solid red;
+        margin: 10px auto; }
+      .tittle .w .search button {
+        width: 80px;
+        height: 40px;
+        background-color: #b61d1d; }
+    .tittle .w #shoppingcar {
+      position: relative;
+      text-align: center;
+      line-height: 36px;
+      font-size: 12px;
+      width: 120px;
+      height: 36px;
+      border: 1px solid #dfdfdf;
+      background-color: #f9f9f9;
+      float: right;
+      margin-top: 25px; }
+      .tittle .w #shoppingcar i {
+        display: block;
+        width: 24px;
+        height: 24px;
+        font-size: 12px;
+        border-radius: 12px 12px 12px 0;
+        text-align: center;
+        color: white;
+        background-color: red;
+        line-height: 24px;
+        position: absolute;
+        top: -10px;
+        right: 5px; }
+
+.nav {
+  width: 100%; }
+  .nav dl {
+    width: 100%;
+    float: left;
+    border-bottom: solid 3px red; }
+    .nav dl .w {
+      width: 1200px;
+      margin: 0 auto; }
+      .nav dl .w dt {
+        width: 241px;
+        height: 46px;
+        background-color: #be1e2d;
+        color: white;
+        line-height: 46px;
+        text-align: center;
+        float: left; }
+      .nav dl .w dd {
+        float: left;
+        margin: 0 30px;
+        font-size: 14px;
+        line-height: 46px;
+        text-align: center; }
+
+.carbox {
+  width: 100%; }
+  .carbox .w {
+    width: 1200px;
+    margin: 100px auto;
+    border: solid 1px #f6f6f6;
+    background-color: #f9f9f9; }
+    .carbox .w ul {
+      color: white;
+      float: left;
+      width: 100%; }
+      .carbox .w ul li {
+        box-sizing: border-box;
+        border: solid 1px black;
+        background-color: #be1e2d;
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+        width: 200px;
+        float: left; }
+    .carbox .w dl {
+      float: left;
+      width: 100%; }
+      .carbox .w dl dd {
+        box-sizing: border-box;
+        border: solid 1px black;
+        text-align: center;
+        height: 100px;
+        line-height: 100px;
+        width: 200px;
+        float: left; }
+        .carbox .w dl dd div {
+          display: inline-block;
+          margin-top: 5px;
+          width: 75px;
+          height: 90px; }
+          .carbox .w dl dd div img {
+            width: 100%;
+            height: 100%; }
+          .carbox .w dl dd div span {
+            line-height: 100px; }
+        .carbox .w dl dd #thingnum {
+          margin-left: 30px;
+          height: 30px;
+          width: 40px; }
+        .carbox .w dl dd #btnsum {
+          display: inline-block;
+          width: 20px;
+          height: 28px;
+          position: relative; }
+          .carbox .w dl dd #btnsum button {
+            width: 20px;
+            height: 20px; }
+          .carbox .w dl dd #btnsum #add {
+            position: absolute;
+            top: 0;
+            right: 0; }
+          .carbox .w dl dd #btnsum #reduce {
+            position: absolute;
+            top: 20px;
+            right: 0; }
+    .carbox .w ol {
+      width: 100%; }
+      .carbox .w ol li {
+        box-sizing: border-box;
+        text-align: center;
+        float: right; }
+        .carbox .w ol li button {
+          width: 200px;
+          height: 60px;
+          line-height: 60px;
+          text-align: center; }
+        .carbox .w ol li span {
+          line-height: 60px;
+          margin-right: 50px;
+          font-size: 20px;
+          color: red; }
+
+/*# sourceMappingURL=goodslistcar.css.map */

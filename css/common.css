@@ -1,0 +1,275 @@
+body, h1, h2, h3, h4, h5, h6, ul, ol, dl, dd, p, input, textarea, button {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #666; }
+
+input:focus, textarea:focus, button:focus {
+  outline: none; }
+
+ul, ol {
+  list-style: none; }
+
+img {
+  vertical-align: top;
+  border: 0; }
+
+a {
+  color: inherit; }
+
+input, select, textarea {
+  color: inherit;
+  font-size: inherit; }
+
+.header {
+  width: 100%;
+  background-color: #f1f1f1; }
+  .header .w {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 30px; }
+  .header p {
+    display: inline-block; }
+  .header span {
+    margin: 0 5px; }
+  .header .register {
+    color: red; }
+  .header ul {
+    float: right; }
+  .header li {
+    margin: 0 5px;
+    float: left; }
+
+.tittle {
+  width: 100%; }
+  .tittle .w {
+    width: 1200px;
+    margin: 0px auto; }
+    .tittle .w .search {
+      display: inline-block;
+      margin: 10px 120px; }
+      .tittle .w .search input {
+        width: 458px;
+        height: 36px;
+        font-size: 20px;
+        border: 2px solid red;
+        margin: 10px auto; }
+      .tittle .w .search button {
+        width: 80px;
+        height: 40px;
+        background-color: #b61d1d; }
+    .tittle .w #shoppingcar {
+      position: relative;
+      text-align: center;
+      line-height: 36px;
+      font-size: 12px;
+      width: 120px;
+      height: 36px;
+      border: 1px solid #dfdfdf;
+      background-color: #f9f9f9;
+      float: right;
+      margin-top: 25px; }
+      .tittle .w #shoppingcar i {
+        display: block;
+        width: 24px;
+        height: 24px;
+        font-size: 12px;
+        border-radius: 12px 12px 12px 0;
+        text-align: center;
+        color: white;
+        background-color: red;
+        line-height: 24px;
+        position: absolute;
+        top: -10px;
+        right: 5px; }
+
+.nav {
+  width: 100%; }
+  .nav dl {
+    width: 100%;
+    float: left;
+    border-bottom: solid 3px red; }
+    .nav dl .w {
+      width: 1200px;
+      margin: 0 auto; }
+      .nav dl .w dt {
+        width: 241px;
+        height: 46px;
+        background-color: #be1e2d;
+        color: white;
+        line-height: 46px;
+        text-align: center;
+        float: left; }
+      .nav dl .w dd {
+        float: left;
+        margin: 0 30px;
+        font-size: 14px;
+        line-height: 46px;
+        text-align: center; }
+
+.pic {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  margin-top: 49px;
+  position: relative; }
+  .pic .w {
+    width: 1200px;
+    margin: 0px auto;
+    position: relative; }
+    .pic .w ul {
+      float: left;
+      width: 240px;
+      background-color: white; }
+      .pic .w ul li {
+        height: 43px;
+        line-height: 43px;
+        padding-left: 25px;
+        border-bottom: dotted 1px gray; }
+    .pic .w dl {
+      width: 320px;
+      height: 352px;
+      position: absolute;
+      left: 240px;
+      top: 0;
+      z-index: 100;
+      background-color: white; }
+      .pic .w dl dd div {
+        width: 100px;
+        height: 352px;
+        float: left; }
+        .pic .w dl dd div span {
+          display: block;
+          width: 120px;
+          height: 35px;
+          line-height: 35px;
+          font-size: 14px;
+          color: black;
+          padding-left: 25px; }
+      .pic .w dl dd p {
+        float: right;
+        margin-right: 15px; }
+        .pic .w dl dd p i {
+          margin-top: 10px;
+          display: block;
+          width: 120px;
+          height: 44px;
+          border: solid 1px gray; }
+          .pic .w dl dd p i img {
+            width: 100%;
+            height: 100%; }
+    .pic .w .selected {
+      display: block; }
+    .pic .w ol li {
+      display: none;
+      float: left;
+      width: 950px;
+      height: 353px; }
+      .pic .w ol li img {
+        width: 100%;
+        height: 100%; }
+    .pic .w ol .select {
+      display: block; }
+    .pic .w .point {
+      background-color: rgba(0, 0, 0, 0.1);
+      position: absolute;
+      width: 30px;
+      height: 10px;
+      top: 310px;
+      left: 700px; }
+      .pic .w .point dt {
+        margin-right: 5px;
+        float: left;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: white; }
+      .pic .w .point .select {
+        background-color: rgba(0, 0, 0, 0.7); }
+    .pic .w h4 {
+      color: white;
+      line-height: 44px; }
+      .pic .w h4 span {
+        margin: 0 25px; }
+        .pic .w h4 span img {
+          margin: 10px 15px 0 0; }
+
+.list {
+  width: 100%;
+  height: 260px; }
+  .list .w {
+    width: 1200px;
+    margin: 0 auto; }
+    .list .w ul li {
+      float: left;
+      width: 289px;
+      height: 235px;
+      margin: 20px 5px; }
+
+.trademark {
+  width: 100%; }
+  .trademark .w {
+    width: 1200px;
+    margin: 0 auto; }
+    .trademark .w ul {
+      height: 80px;
+      margin-top: 30px;
+      overflow: hidden; }
+      .trademark .w ul li {
+        float: left;
+        width: 165px;
+        height: 80px;
+        position: abosulte;
+        bottom: 0; }
+        .trademark .w ul li img {
+          width: 100%;
+          height: 100%; }
+
+.mouse {
+  width: 100%;
+  height: 700;
+  margin-top: 50px; }
+  .mouse .w {
+    width: 1200px;
+    margin: 0 auto; }
+    .mouse .w h3 {
+      line-height: 44px;
+      padding-left: 20px; }
+      .mouse .w h3 span {
+        float: right; }
+    .mouse .w .advertising {
+      display: inline-block;
+      width: 225px;
+      height: 656px;
+      overflow: hidden; }
+      .mouse .w .advertising img {
+        width: 100%;
+        height: 100%; }
+    .mouse .w ul {
+      width: 970px;
+      height: 656px;
+      display: inline-block; }
+      .mouse .w ul li {
+        width: 214px;
+        height: 318px;
+        float: left;
+        margin: 5px 12px; }
+        .mouse .w ul li i {
+          display: inline-block;
+          width: 214px;
+          height: 203px; }
+          .mouse .w ul li i img {
+            width: 100%;
+            height: 100%; }
+        .mouse .w ul li p {
+          text-align: center; }
+        .mouse .w ul li .second {
+          color: gray;
+          font-size: 10px; }
+        .mouse .w ul li .third {
+          color: red; }
+
+/*# sourceMappingURL=common.css.map */

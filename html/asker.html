@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/asker.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div class="w">
+            <i>
+                <a href="index.html">
+                    <img src="../images/1.png" alt="">
+                </a>
+            </i>
+            <span>欢迎注册</span>
+        </div>
+    </header>
+    <section>
+        <div class="w">
+            <div class="nav">
+                <p>手机注册</p>
+                <span>
+                    我已经注册，现在就
+                    <a href="register.html">登录</a>
+                </span>
+            </div>
+            <dl>
+                <dd>
+                    手机号码:&nbsp;&nbsp;&nbsp;<input type="text" placeholder="请输入手机号" id="usertel"><span></span>
+                    <p id="usertelture"></p>
+                </dd>
+                <dd>
+                    验证码:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="请输入验证码" id="input-code"><span id="code-num"></span>
+                    <p id="codetruth"></p>
+                </dd>
+                <dd>
+                    用户名:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="用户名" id="username"><span></span>
+                    <p id="usernametruth">只能是数字字母_ $组成长度6到10位不能是数字开头</p>
+                </dd>
+                <dd>
+                    请输入密码:<input type="text" placeholder="新密码" id="userpwd"><span></span>
+                    <p id="userpwdtruth">只能由数字字母组成长度6到12位</p>
+                </dd>
+                <!-- <dd>
+                    请确认密码:<input type="text">
+                </dd> -->
+                <dd>
+                    <input type="checkbox" class="choise">我已阅读并同意<span><<外设天下用户注册协议>></span>
+                </dd>
+                <dd>
+                    <button id="btn">注册</button>
+                </dd>
+                <dt>
+                    <img src="../images/95.png" alt="">
+                </dt>
+            </dl>
+        </div>
+    </section>   
+</body>
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/asker.js"></script>
+</html>

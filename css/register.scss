@@ -1,0 +1,124 @@
+$headerWidth:100%;
+$headerHeight: 30px;
+$headerbgc: #f1f1f1;
+$wWidth: 1200px;
+$inputWidth: 458px;
+$inputHeight: 36px;
+
+body,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,p,input,textarea,button{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+	color: #666;
+}
+input:focus,textarea:focus,button:focus{ 
+    outline:none;
+}
+ul,ol{
+	list-style: none;
+}
+img{
+	vertical-align: top;
+	border: 0;
+}
+a{
+	color: inherit;
+}
+input,select,textarea{
+    color: inherit;
+    font-size: inherit;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    .w{
+        width: $wWidth;
+        margin: 0 auto;
+        font-size: 14px;
+        line-height: $headerHeight;
+        span{
+            height: 100px;
+            line-height: 100px;
+            font-size: 30px;
+            margin-left: 30px;
+        }
+    }
+}
+section{
+    width: 100%;
+    height: 478px;
+    background-color: #2145f1;
+    .w{
+        width: $wWidth;
+        margin: 0 auto;
+        font-size: 14px;
+        line-height: $headerHeight;
+        i{
+            float: left;    
+        }
+        dl{
+            width: 360px;
+            height: 300px;
+            background-color: white;
+            margin-top: 100px;
+            float: left;
+            h3{
+                display: inline-block;
+                font-size: 26px;
+                line-height:80px;
+                padding-left: 20px;
+                color:  #666;
+            }
+            span{
+                float:right;
+                padding: 30px 10px;
+            }
+            i{
+                width: 42px;
+                height: 42px;
+                float: left;
+                border: 1px solid #999;
+                margin-left: 25px;
+                margin-top: 10px;
+                text-align: center;
+                line-height: 42px;
+                font-size: 24px;
+            }
+            input{
+                float:left;
+                color: #999;
+                width: 266px;
+                height: 40px;
+                // margin-left: 20px;
+            }
+            #userpwd{
+                margin-top: 10px;
+            }
+        }
+        dd{
+            margin-top: 115px;
+            margin-left: 25px;
+            width: 306px;
+            height: 40px;
+            input{
+                width: 15px;
+                height:15px;
+                margin-top: 5px;
+            }
+            p{
+                float: right;
+            }
+        }
+        button{
+            width: 306px;
+            height: 40px;
+            background-color: #2145f1;
+            color: white;
+            margin-left: 25px;
+            border-radius: 5px;
+        }
+    }
+}

@@ -1,0 +1,222 @@
+body, h1, h2, h3, h4, h5, h6, ul, ol, dl, dd, p, input, textarea, button {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #666; }
+
+input:focus, textarea:focus, button:focus {
+  outline: none; }
+
+ul, ol {
+  list-style: none; }
+
+img {
+  vertical-align: top;
+  border: 0; }
+
+a {
+  color: inherit; }
+
+input, select, textarea {
+  color: inherit;
+  font-size: inherit; }
+
+.header {
+  width: 100%;
+  background-color: #f1f1f1; }
+  .header .w {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 30px; }
+  .header p {
+    display: inline-block; }
+  .header span {
+    margin: 0 5px; }
+  .header .register {
+    color: red; }
+  .header ul {
+    float: right; }
+  .header li {
+    margin: 0 5px;
+    float: left; }
+
+.tittle {
+  width: 100%; }
+  .tittle .w {
+    width: 1200px;
+    margin: 0px auto; }
+    .tittle .w .search {
+      display: inline-block;
+      margin: 10px 120px; }
+      .tittle .w .search input {
+        width: 458px;
+        height: 36px;
+        font-size: 20px;
+        border: 2px solid red;
+        margin: 10px auto; }
+      .tittle .w .search button {
+        width: 80px;
+        height: 40px;
+        background-color: #b61d1d; }
+    .tittle .w #shoppingcar {
+      position: relative;
+      text-align: center;
+      line-height: 36px;
+      font-size: 12px;
+      width: 120px;
+      height: 36px;
+      border: 1px solid #dfdfdf;
+      background-color: #f9f9f9;
+      float: right;
+      margin-top: 25px; }
+      .tittle .w #shoppingcar i {
+        display: block;
+        width: 24px;
+        height: 24px;
+        font-size: 12px;
+        border-radius: 12px 12px 12px 0;
+        text-align: center;
+        color: white;
+        background-color: red;
+        line-height: 24px;
+        position: absolute;
+        top: -10px;
+        right: 5px; }
+
+.nav {
+  width: 100%; }
+  .nav dl {
+    width: 100%;
+    float: left;
+    border-bottom: solid 3px red; }
+    .nav dl .w {
+      width: 1200px;
+      margin: 0 auto; }
+      .nav dl .w dt {
+        width: 241px;
+        height: 46px;
+        background-color: #be1e2d;
+        color: white;
+        line-height: 46px;
+        text-align: center;
+        float: left; }
+      .nav dl .w dd {
+        float: left;
+        margin: 0 30px;
+        font-size: 14px;
+        line-height: 46px;
+        text-align: center; }
+
+.goodstotal {
+  width: 100%; }
+  .goodstotal .w {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 200px; }
+    .goodstotal .w #smallimg {
+      display: inline-block;
+      width: 400px;
+      height: 400px;
+      margin-top: 50px;
+      overflow: hidden;
+      margin-left: 100px;
+      position: relative; }
+      .goodstotal .w #smallimg img {
+        width: 100%;
+        height: 100%; }
+    .goodstotal .w #shadow {
+      display: none;
+      width: 160px;
+      height: 160px;
+      background-color: rgba(254, 238, 167, 0.4);
+      position: absolute;
+      left: 0;
+      top: 0; }
+    .goodstotal .w #bigimg {
+      display: none;
+      position: absolute;
+      top: 209px;
+      left: 865px;
+      width: 400px;
+      height: 400px;
+      overflow: hidden; }
+      .goodstotal .w #bigimg img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 250%;
+        height: 250%; }
+    .goodstotal .w ul {
+      float: right; }
+      .goodstotal .w ul li {
+        overflow: hidden;
+        margin-left: 50px; }
+        .goodstotal .w ul li h3 {
+          font-size: 30px;
+          line-height: 60px; }
+        .goodstotal .w ul li p {
+          margin-top: 30px;
+          font-size: 20px;
+          line-height: 26px;
+          margin-bottom: 10px; }
+        .goodstotal .w ul li strong {
+          color: red;
+          font-size: 36px;
+          line-height: 60px; }
+        .goodstotal .w ul li span {
+          margin-left: 10px;
+          color: red; }
+        .goodstotal .w ul li dl {
+          margin-top: 50px;
+          height: 100px; }
+          .goodstotal .w ul li dl dd {
+            background-color: #f6f6f6;
+            margin-left: 10px;
+            text-align: center;
+            line-height: 50px;
+            float: left;
+            width: 100px;
+            height: 50px; }
+        .goodstotal .w ul li .sum {
+          height: 50px;
+          line-height: 50px;
+          color: black;
+          font-size: 18px; }
+        .goodstotal .w ul li input {
+          margin-left: 30px;
+          height: 30px;
+          width: 40px; }
+        .goodstotal .w ul li #btnsum {
+          display: inline-block;
+          width: 20px;
+          height: 28px;
+          position: relative; }
+          .goodstotal .w ul li #btnsum button {
+            width: 20px;
+            height: 20px; }
+          .goodstotal .w ul li #btnsum #add {
+            position: absolute;
+            top: 0;
+            right: 0; }
+          .goodstotal .w ul li #btnsum #reduce {
+            position: absolute;
+            top: 20px;
+            right: 0; }
+        .goodstotal .w ul li #add-car {
+          margin-left: 50px;
+          width: 250px;
+          height: 50px;
+          background-color: #921723;
+          color: white;
+          line-height: 50px;
+          text-align: center;
+          font-size: 20px;
+          margin-top: 50px; }
+      .goodstotal .w ul .third {
+        border-top: solid 1px red;
+        border-bottom: solid 1px red; }
+
+/*# sourceMappingURL=goodsinfo.css.map */

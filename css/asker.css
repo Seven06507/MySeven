@@ -1,0 +1,117 @@
+body, h1, h2, h3, h4, h5, h6, ul, ol, dl, dd, p, input, textarea, button {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2; }
+
+a {
+  text-decoration: none;
+  color: #666; }
+
+input:focus, textarea:focus, button:focus {
+  outline: none; }
+
+ul, ol {
+  list-style: none; }
+
+img {
+  vertical-align: top;
+  border: 0; }
+
+a {
+  color: inherit; }
+
+input, select, textarea {
+  color: inherit;
+  font-size: inherit; }
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #fff; }
+  header .w {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 30px; }
+    header .w span {
+      height: 100px;
+      line-height: 100px;
+      font-size: 30px;
+      margin-left: 30px; }
+
+section {
+  width: 100%; }
+  section .w {
+    width: 1200px;
+    border: solid 1px gray;
+    margin: 50px auto;
+    font-size: 14px;
+    line-height: 30px;
+    background-color: white;
+    padding-bottom: 50px; }
+    section .w .nav {
+      background-color: white;
+      width: 900px;
+      border-bottom: solid 1px #e5e5e5;
+      margin-top: 28px;
+      margin: 0 auto; }
+      section .w .nav p {
+        background-color: white;
+        display: inline-block;
+        font-size: 16px;
+        line-height: 46px;
+        margin-left: 100px;
+        font-size: 20px;
+        color: red; }
+      section .w .nav span {
+        float: right;
+        margin-right: 25px;
+        line-height: 46px; }
+        section .w .nav span a {
+          color: red; }
+    section .w dl {
+      background-color: white;
+      width: 900px;
+      margin-top: 20px;
+      margin: 0 auto;
+      position: relative; }
+      section .w dl dd {
+        background-color: white; }
+        section .w dl dd input {
+          background-color: white;
+          margin-top: 25px;
+          margin-left: 20px;
+          width: 280px;
+          height: 40px; }
+        section .w dl dd .choise {
+          width: 12px;
+          height: 12px; }
+        section .w dl dd span {
+          color: red;
+          font-size: 16px; }
+        section .w dl dd #code-num {
+          display: inline-block;
+          width: 100px;
+          height: 45px;
+          font-size: 18px;
+          background-color: pink;
+          color: gray;
+          line-height: 45px;
+          text-align: center; }
+        section .w dl dd p {
+          background-color: white;
+          line-height: 36px;
+          margin-left: 100px;
+          font-size: 16px; }
+        section .w dl dd button {
+          margin-top: 50px;
+          margin-left: 20px;
+          width: 280px;
+          height: 40px;
+          background-color: #be1e2d; }
+      section .w dl dt {
+        position: absolute;
+        top: 50px;
+        right: 30px; }
+
+/*# sourceMappingURL=asker.css.map */
